@@ -51,14 +51,27 @@ h3{
  }
 
  .flex-container {
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     justify-content: space-around;
   }
 
-  .flex-box{
+  .flex-info{
       flex-direction: column;
       display: flex;
+      justify-content: space-around;
+  }
+
+  .flex-game{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .flex-book{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
   }
 
   .fa {
